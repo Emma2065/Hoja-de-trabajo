@@ -1,0 +1,97 @@
+from os import system
+system("cls")
+
+"""PARA QUE CADA EJERCICIO FUNCIONE, DEBERA ELIMNAR LAS TRES COMILLAS QUE SE ENCUENTRAN AL FINAL Y AL PRINCIPIO DE CADA UNO DE ESTOS"""
+
+"""Ejercicio 1 
+p="'!Hola"
+p2 = "Todos!'"
+print(p,' a "Todas" y "',p2,'"' )"""
+
+"""Ejercicio 2
+username = input("Ingrese su nombre: ")
+print("Hola", usename)"""
+
+"""Ejercicio 4
+print("A ", "\tB ", "\tQ" )
+print("------------------")
+print("0", "\t0", "\n0", "\t1", "\n1", "\t0", "\n1", "\t1")
+i = 0
+while i<4:
+    i = i+1
+    a = int(input("Ingrese a: "))
+    b = int(input("Ingrese b: "))
+    if (a == 0 and b == 0):
+        print('Q = 0')
+    elif (a == 0 and b == 1):
+        print('Q = 1')
+    elif (a == 1 and b == 0):
+        print('Q = 1')
+    elif (a == 1 and b == 1):
+        print('Q = 1')
+    else:
+        print('ERROR')
+        break"""
+
+""""Ejercicio 5
+parcial1 = int(input("Ingrese el numero de horas estudiadas para el primer parcial: "))
+parcial2 = int(input("Ingrese el numero de horas estudiadas para el segundo parcial: "))
+final = int(input("Ingrese el numero de horas estudiadas para el examen final: ")
+promedio = (parcial1 + parcial2 + final)/3
+if (promedio<5):
+    print("Ustede estudio ",promedio," su examen sera facil")
+    elif(promedio>5 and promedio<10):
+        print("Usted estudio ",promedio," su examen sera normal")
+    elif(promedio>10):
+        print("Usted estudio ",promedio," su examen sera dificil")"""
+
+"""Ejercicio 6
+m = int(input("Ingrese el numero hasta el que desea hacer la sumatoria: "))
+sumatoria = (m*(m+1))/2
+print("El total de la sumatoria de 1 hasta ",m," es de: ",sumatoria)"""
+
+"""Ejercicio 7
+libras = float(input("Ingrese su peso en libras: "))
+kilos = libras/2.20
+metros = float(input("Ingrese su altura en metros: "))
+imc = kilos/(metros*metros)
+print("Si <imc> es de: ",imc)"""
+
+"""Ejercicio 8
+a = float(input("Ingrese su primer numero flotante: "))
+b = float(input("Ingrese su segundo numero flotante: "))
+c = a/b
+d = round(c,2)
+print("El cociente es de: ",c)
+print("El residuo es de: ",d)"""
+
+"""Ejercicio 9
+monto = float(input("Ingrese el monto a invertir: "))
+interes = int(input("Ingrese el interes anual: "))
+años = int(input("Ingrese el numero de años que desea invertir: "))
+intersporcentaje = interes/100
+interesanual = interesporcentaje*monto*años
+capital=monto+interesanual
+print("Su capital en ",años," sera de: ",capital)"""
+
+"""Ejericio 10
+barrenos = 112
+sierras = 75
+pedidobarrenos = int(input("Ingrese el numero de barrenos que desea comprar: "))
+pedidosierras = int(input("Ingrese el numero de sierras que desea comprar: "))
+totalbarrenos = barrenos * pedidobarrenos
+totalsierras = sierras*pedidosierras
+total=totalbarrenos+totalsierras
+print("El peso total de su pedido es de: ",total,"KG")"""
+
+
+"""Ejercicio 11
+mememoriasusadas = int(input("Ingrese el numero de memorias usadas: "))
+memorias=20
+escuento=0.60
+memoriaspago=(mememoriasusadas*memorias)*descuento
+memoriaspagonuevas=memorias*mememoriasusadas
+diferencia=memoriaspagonuevas-memoriaspago
+print("El total sin descuento es de: ", memoriaspagonuevas)
+print("El total que debe pagar es de: ",memoriaspago)
+print("El ahorro que tuvo fue de: ",diferencia)"""
